@@ -1,0 +1,312 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/txtScreen"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:gravity="end|center_horizontal"
+        android:inputType="date"
+        android:paddingEnd="10dp"
+android:focusable="false"
+        android:text="@string/_0"
+        android:textSize="30sp"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="RtlSymmetry" />
+
+    <TextView
+        android:id="@+id/txtResult"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:gravity="end|center_horizontal"
+        android:text=""
+        android:textSize="70sp"
+        app:layout_constraintTop_toBottomOf="@id/txtScreen" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:padding="13dp"
+        tools:ignore="NestedWeights">
+
+        <TextView
+            android:id="@+id/btnclear"
+            android:layout_width="0dp"
+            android:layout_height="60dp"
+            android:layout_margin="6dp"
+            android:layout_marginStart="5dp"
+            android:layout_weight="1"
+            android:background="@drawable/crcrc"
+            android:gravity="center"
+            android:text="@string/c"
+            android:textSize="35sp" />
+
+        <TextView
+            android:id="@+id/btnbracket"
+            android:layout_width="0dp"
+            android:layout_height="60dp"
+            android:layout_margin="6dp"
+            android:layout_marginStart="2dp"
+            android:layout_weight="1"
+            android:background="@drawable/crcrc"
+            android:gravity="center"
+            android:text="@string/ip"
+            android:textSize="35sp" />
+
+        <TextView
+            android:id="@+id/btndelete"
+            android:layout_width="0dp"
+            android:layout_height="60dp"
+            android:layout_margin="6dp"
+            android:layout_marginEnd="2dp"
+            android:layout_weight="1"
+            android:background="@drawable/crcrc"
+            android:gravity="center"
+            android:text="@string/i"
+            android:textSize="35sp" />
+
+        <TextView
+            android:id="@+id/btndivide"
+            android:layout_width="0dp"
+            android:layout_height="60dp"
+            android:layout_margin="6dp"
+            android:layout_marginEnd="2dp"
+            android:layout_weight="1"
+            android:background="@drawable/crcrc"
+            android:gravity="center"
+            android:text="@string/ik"
+            android:textSize="35sp" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginStart="2dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:padding="13dp">
+
+        <TextView
+            android:id="@+id/btnseven"
+            android:layout_width="0dp"
+            android:layout_height="60dp"
+            android:layout_margin="6dp"
+            android:layout_marginStart="2dp"
+            android:layout_weight="1"
+            android:background="@drawable/crcrc"
+            android:gravity="center"
+            android:text="@string/_7"
+            android:textSize="35sp" />
+
+        <TextView
+            android:id="@+id/btneight"
+            android:layout_width="0dp"
+            android:layout_height="60dp"
+            android:layout_margin="6dp"
+            android:layout_marginStart="2dp"
+            android:layout_weight="1"
+            android:background="@drawable/crcrc"
+            android:gravity="center"
+            android:text="@string/_8"
+            android:textSize="35sp" />
+
+        <TextView
+            android:id="@+id/btnnine"
+            android:layout_width="0dp"
+            android:layout_height="60dp"
+            android:layout_margin="6dp"
+            android:layout_marginEnd="2dp"
+            android:layout_weight="1"
+            android:background="@drawable/crcrc"
+            android:gravity="center"
+            android:text="@string/_9"
+            android:textSize="35sp" />
+
+        <TextView
+            android:id="@+id/btnmultiply"
+            android:layout_width="0dp"
+            android:layout_height="60dp"
+            android:layout_margin="6dp"
+            android:layout_marginEnd="2dp"
+            android:layout_weight="1"
+            android:background="@drawable/crcrc"
+            android:gravity="center"
+            android:text="@string/sad"
+            android:textSize="35sp" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginStart="2dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:padding="13dp">
+
+        <TextView
+            android:id="@+id/btnfour"
+            android:layout_width="0dp"
+            android:layout_height="60dp"
+            android:layout_margin="6dp"
+            android:layout_marginStart="2dp"
+            android:layout_weight="1"
+            android:background="@drawable/crcrc"
+            android:gravity="center"
+            android:text="@string/_4"
+            android:textSize="35sp" />
+
+        <TextView
+            android:id="@+id/btnfive"
+            android:layout_width="0dp"
+            android:layout_height="60dp"
+            android:layout_margin="6dp"
+            android:layout_marginStart="2dp"
+            android:layout_weight="1"
+            android:background="@drawable/crcrc"
+            android:gravity="center"
+            android:text="@string/_5"
+            android:textSize="35sp" />
+
+        <TextView
+            android:id="@+id/btnsix"
+            android:layout_width="0dp"
+            android:layout_height="60dp"
+            android:layout_margin="6dp"
+            android:layout_marginEnd="2dp"
+            android:layout_weight="1"
+            android:background="@drawable/crcrc"
+            android:gravity="center"
+            android:text="@string/_6"
+            android:textSize="35sp" />
+
+        <TextView
+            android:id="@+id/btnminus"
+            android:layout_width="0dp"
+            android:layout_height="60dp"
+            android:layout_margin="6dp"
+            android:layout_marginEnd="2dp"
+            android:layout_weight="1"
+            android:background="@drawable/crcrc"
+            android:gravity="center"
+            android:text="@string/edq"
+            android:textSize="35sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginStart="2dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:padding="13dp">
+
+        <TextView
+            android:id="@+id/btnone"
+            android:layout_width="0dp"
+            android:layout_height="60dp"
+            android:layout_margin="6dp"
+            android:layout_marginStart="2dp"
+            android:layout_weight="1"
+            android:background="@drawable/crcrc"
+            android:gravity="center"
+            android:text="@string/_1"
+            android:textSize="35sp" />
+
+        <TextView
+            android:id="@+id/btntwo"
+            android:layout_width="0dp"
+            android:layout_height="60dp"
+            android:layout_margin="6dp"
+            android:layout_marginStart="2dp"
+            android:layout_weight="1"
+            android:background="@drawable/crcrc"
+            android:gravity="center"
+            android:text="@string/_2"
+            android:textSize="35sp" />
+
+        <TextView
+            android:id="@+id/btnthree"
+            android:layout_width="0dp"
+            android:layout_height="60dp"
+            android:layout_margin="6dp"
+            android:layout_marginEnd="2dp"
+            android:layout_weight="1"
+            android:background="@drawable/crcrc"
+            android:gravity="center"
+            android:text="@string/_3"
+            android:textSize="35sp" />
+
+        <TextView
+            android:id="@+id/btnplus"
+            android:layout_width="0dp"
+            android:layout_height="60dp"
+            android:layout_margin="6dp"
+            android:layout_marginEnd="2dp"
+            android:layout_weight="1"
+            android:background="@drawable/crcrc"
+            android:gravity="center"
+            android:text="@string/wdq"
+            android:textSize="35sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginStart="2dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:padding="13dp">
+
+        <TextView
+            android:id="@+id/btndot"
+            android:layout_width="0dp"
+            android:layout_height="60dp"
+            android:layout_margin="6dp"
+            android:layout_marginStart="2dp"
+            android:layout_weight="1"
+            android:background="@drawable/crcrc"
+            android:gravity="center"
+            android:text="@string/qwe"
+            android:textSize="35sp" />
+
+        <TextView
+            android:id="@+id/btnzero"
+            android:layout_width="0dp"
+            android:layout_height="60dp"
+            android:layout_margin="6dp"
+            android:layout_marginStart="2dp"
+            android:layout_weight="1"
+            android:background="@drawable/crcrc"
+            android:gravity="center"
+            android:text="@string/ddd"
+            android:textSize="35sp" />
+
+        <TextView
+            android:id="@+id/btnEqual"
+            android:layout_width="0dp"
+            android:layout_height="60dp"
+            android:layout_margin="6dp"
+            android:layout_marginEnd="2dp"
+            android:layout_weight="2"
+            android:background="@drawable/crcrc"
+            android:gravity="center"
+            android:text="@string/wdeeee"
+            android:textSize="35sp" />
+
+
+    </LinearLayout>
+</LinearLayout>
+
